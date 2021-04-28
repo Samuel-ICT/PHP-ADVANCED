@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form name="form" action="mijngegevens.php" method="POST">
+  
+Voornaam: <input type="text" name="voornaam"><br><br>
+
+Achternaam: <input type="text" name="achternaam"><br><br>
+
+Klas: <input type="text" name="klas">
+<br><br>
+Leeftijd: <input type="text" name="leeftijd">
+<br><br>
+Adres: <input type="text" name="adres">
+<br><br>
+Woonplaats: <input type="text" name="woonplaats">
+<br><br>
+Favoriete muziekband:<input type="text" name="muziekband">
+<br><br>
+<p >Geslacht</p>
+<input  type="radio" id="male" name="gender" value="male" >
+<label for="male">Male</label>
+<input  type="radio" id="female" name="gender" value="female">
+<label for="female">Female</label><br><br>
+
+<label for="kleuren">Lievelingskleur</label>
+<select name = "kleuren">
+<option value="">Kies kleur</option>
+<option value="yellow">yellow</option>
+<option value="red">red</option>
+<option value="blue">blue</option>
+<option value="green">green</option>
+<option value="orange">orange</option>
+</select>
+<input type="submit" name="submit" value="Verzend">
+</form>
+</body>
+</html>
