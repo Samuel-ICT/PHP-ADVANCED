@@ -23,8 +23,7 @@ echo $_POST["muziekband"];
 echo "<br>";
 echo $_POST["gender"];
 echo "<br>"; 
-$change = $_POST["kleuren"];
-echo "<style>body{background-color:" .$change.";}</style>";
+echo "<style>body{background-color:" .$_POST["kleuren"].";}</style>";
 
 ?>
 </body>
