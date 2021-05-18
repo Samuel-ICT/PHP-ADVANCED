@@ -10,7 +10,7 @@
 <style>
 td{
   font-size: 30px;
- 
+ border: 1px solid black;
 }
 table{
   background-color: white; 
